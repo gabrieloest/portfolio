@@ -247,6 +247,16 @@ a.btn:hover,.nav li a:hover,.nav-btn:hover
 {
 	float: right;
 }
+.banner { 
+  position: relative; 
+  overflow: auto; 
+}
+.banner li { 
+  list-style: none; 
+}
+.banner ul li { 
+  float: left; 
+}
 @media screen and (max-width: 800px)
 {
 	.container
